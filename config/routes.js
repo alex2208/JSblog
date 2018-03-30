@@ -1,6 +1,6 @@
-const articleController = require('../controllers').article;
-const userController = require('../controllers').user;
-const homeController = require('../controllers').home;
+const articleController = require('./../controllers').article;
+const userController = require('./../controllers/user');
+const homeController = require('./../controllers/home');
 
 
 module.exports = (app) =>{
